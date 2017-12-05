@@ -82,13 +82,13 @@
 
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 
-		<property name="driverClassName" value="${DRIVERCLASSNAME}" />
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
 
-		<property name="url" value="${DATABASEURL}" />
+		<property name="url" value="jdbc:mysql:pubpoc.casixkc6kc7c.us-west-2.rds.amazonaws.com:3306/test" />
 
-		<property name="username" value="${DBUSERNAME}" />
+		<property name="username" value="pubpoc" />
 
-		<property name="password" value="${DBPASSWORD}" />
+		<property name="password" value="cybage.123" />
 
 	</bean>
 
